@@ -1,7 +1,51 @@
  html {
    box-sizing: border-box;
+   font-family: Roboto, sans-serif;
+   font-size: 3rem;
  }
 
  *, *::before, *::after {
    box-sizing: inherit;
  }
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn {
+  background-color: grey;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  bottom: 0;
+  }
+
+a:hover {
+  background-color: #000;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
+
+.content {
+  display: inline-block;
+  max-width: 45em;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
