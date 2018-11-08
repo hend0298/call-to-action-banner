@@ -1,12 +1,12 @@
- html {
-   box-sizing: border-box;
-   font-family: Roboto, sans-serif;
-   font-size: 3rem;
- }
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-size: 3rem;
+}
 
- *, *::before, *::after {
+*, *::before, *::after {
    box-sizing: inherit;
- }
+}
 
 h2 {
   font-family: "Roboto Condensed", sans-serif;
@@ -21,7 +21,7 @@ h2 {
   padding: .4em .75em .3em;
   text-decoration: none;
   bottom: 0;
-  }
+}
 
 .btn:hover {
   background-color: #000;
@@ -50,4 +50,13 @@ h2 {
   display: block;
   justify-content: center;
   width: 100%;
+}
+
+.mecha {
+  display: flex;
+}
+
+body {
+  align-items: center;
+  margin: 0;
 }
