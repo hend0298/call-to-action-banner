@@ -5,11 +5,12 @@ html {
 }
 
 *, *::before, *::after {
-   box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h2 {
   font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
 }
 
 .btn {
@@ -37,26 +38,28 @@ h2 {
 }
 
 .content {
-  display: inline-block;
   max-width: 45em;
   position: absolute;
-  top: 0;
+  top: 3em;
   left: 50%;
   overflow: hidden;
   transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
 }
 
 .img-flex {
   display: block;
-  justify-content: center;
   width: 100%;
+  height: auto;
 }
 
 .mecha {
-  display: flex;
+  width: 100%;
 }
 
 body {
-  align-items: center;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
